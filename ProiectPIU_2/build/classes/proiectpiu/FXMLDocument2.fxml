@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="rootAnchorPane" prefHeight="364.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiectpiu.FXMLDocumentController2">
+    <children>
+        <Label fx:id="label" layoutX="174.0" layoutY="169.0" minHeight="16" minWidth="69" prefHeight="119.0" prefWidth="202.0" />
+      <Button fx:id="start" layoutX="252.0" layoutY="45.0" mnemonicParsing="false" onAction="#loadGame" text="Joc cu alb" />
+      <Button fx:id="startNegru" layoutX="244.0" layoutY="80.0" mnemonicParsing="false" onAction="#loadGameNegru" text="Joc cu negru" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="364.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiectpiu.FXMLDocumentController">
+    <children>
+      <Line endX="-124.0" endY="140.0" layoutX="205.0" layoutY="137.0" startX="-124.0" startY="-54.0" />
+      <Line endX="-146.0" endY="137.0" layoutX="205.0" layoutY="164.0" startX="-146.0" startY="-105.0" />
+      <Line endX="-125.0" endY="-102.0" layoutX="162.0" layoutY="137.0" startX="-125.0" startY="188.0" />
+      <Line endX="154.5" endY="92.0" layoutX="334.0" layoutY="183.0" startX="155.0" startY="-97.5" />
+      <Line endX="249.20709228515625" endY="125.20709228515625" layoutX="263.0" layoutY="176.0" startX="247.5" startY="-117.0" />
+      <Line endX="306.0" endY="150.0" layoutX="227.0" layoutY="176.0" startX="305.5" startY="-142.0" />
+      <Line endX="305.0" endY="-1.5" layoutX="227.0" layoutY="36.0" startX="-190.5" startY="-1.5" />
+      <Line endX="213.0" endY="-2.5" layoutX="297.0" layoutY="61.0" startX="-237.5" startY="-2.5" />
+      <Line endX="260.79290771484375" endY="11.792877197265625" layoutX="227.0" layoutY="73.0" startX="-145.5" startY="12.5" />
+      <Line endX="256.0" endY="-12.5" layoutX="232.0" layoutY="288.0" startX="-150.5" startY="-12.5" />
+      <Line endX="280.9141845703125" endY="164.9141845703125" layoutX="232.0" layoutY="137.0" startX="-172.5" startY="164.5" />
+      <Line endX="247.0" endY="189.5" layoutX="286.0" layoutY="137.0" startX="-248.5" startY="188.5" />
+      <Line endX="114.0" endY="144.0" layoutX="171.0" layoutY="181.0" startX="114.0" startY="95.0" />
+      <Circle fx:id="cerc17" fill="DODGERBLUE" layoutX="285.0" layoutY="276.0" onMouseClicked="#handleButtonAction17" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc20" fill="DODGERBLUE" layoutX="285.0" layoutY="301.0" onMouseClicked="#handleButtonAction20" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc23" fill="DODGERBLUE" layoutX="286.0" layoutY="326.0" onMouseClicked="#handleButtonAction23" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="183.5" layoutX="350.0" layoutY="176.0" startX="138.5" />
+      <Circle fx:id="cerc13" fill="DODGERBLUE" layoutX="489.0" layoutY="176.0" onMouseClicked="#handleButtonAction13" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc14" fill="DODGERBLUE" layoutX="512.0" layoutY="176.0" onMouseClicked="#handleButtonAction14" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc15" fill="DODGERBLUE" layoutX="533.0" layoutY="176.0" onMouseClicked="#handleButtonAction15" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="-45.0" layoutX="126.0" layoutY="167.0" startX="-88.5" />
+      <Line endX="-9.0" endY="-107.79287719726562" layoutX="286.0" layoutY="144.0" startX="-9.0" startY="-60.0" />
+      <Circle fx:id="cerc16" fill="DODGERBLUE" layoutX="81.0" layoutY="275.0" onMouseClicked="#handleButtonAction16" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc19" fill="DODGERBLUE" layoutX="59.0" layoutY="301.0" onMouseClicked="#handleButtonAction19" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc22" fill="DODGERBLUE" layoutX="38.0" layoutY="325.0" onMouseClicked="#handleButtonAction22" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc18" fill="DODGERBLUE" layoutX="488.0" layoutY="275.0" onMouseClicked="#handleButtonAction18" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc21" fill="DODGERBLUE" layoutX="511.0" layoutY="303.0" onMouseClicked="#handleButtonAction21" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc24" fill="DODGERBLUE" layoutX="532.0" layoutY="326.0" onMouseClicked="#handleButtonAction24" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc8" fill="DODGERBLUE" layoutX="276.0" layoutY="85.0" onMouseClicked="#handleButtonAction8" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc5" fill="DODGERBLUE" layoutX="276.0" layoutY="60.0" onMouseClicked="#handleButtonAction5" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc2" fill="DODGERBLUE" layoutX="276.0" layoutY="36.0" onMouseClicked="#handleButtonAction2" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc12" fill="DODGERBLUE" layoutX="81.0" layoutY="167.0" onMouseClicked="#handleButtonAction12" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc11" fill="DODGERBLUE" layoutX="60.0" layoutY="167.0" onMouseClicked="#handleButtonAction11" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc10" fill="DODGERBLUE" layoutX="38.0" layoutY="168.0" onMouseClicked="#handleButtonAction10" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc1" fill="DODGERBLUE" layoutX="38.0" layoutY="36.0" onMouseClicked="#handleButtonAction1" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc4" fill="DODGERBLUE" layoutX="60.0" layoutY="60.0" onMouseClicked="#handleButtonAction4" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc7" fill="DODGERBLUE" layoutX="82.0" layoutY="86.0" onMouseClicked="#handleButtonAction7" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc9" fill="DODGERBLUE" layoutX="488.0" layoutY="86.0" onMouseClicked="#handleButtonAction9" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc6" fill="DODGERBLUE" layoutX="510.0" layoutY="58.0" onMouseClicked="#handleButtonAction6" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cerc3" fill="DODGERBLUE" layoutX="532.0" layoutY="36.0" onMouseClicked="#handleButtonAction3" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <ScrollPane layoutX="107.0" layoutY="96.0" prefHeight="168.0" prefWidth="152.0">
+         <content>
+            <Text fx:id="text1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="146.13671875" />
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="307.0" layoutY="98.0" prefHeight="168.0" prefWidth="152.0">
+         <content>
+            <Text fx:id="text2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="146.13671875" />
+         </content>
+      </ScrollPane>
+    </children>
+</AnchorPane>
